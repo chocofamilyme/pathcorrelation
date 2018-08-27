@@ -36,7 +36,6 @@ class CorrelationId extends Injectable
         $this->nextSpanId = $this->spanId + 1;
     }
 
-
     /**
      * @return CorrelationId
      */
@@ -48,7 +47,6 @@ class CorrelationId extends Injectable
 
         return self::$instance;
     }
-
 
     /**
      * @return array
@@ -71,7 +69,6 @@ class CorrelationId extends Injectable
             'span_id' => $this->spanId
         ];
     }
-
 
     /**
      * @return string
