@@ -1,6 +1,6 @@
 <?php
 
-namespace RestAPI\Http;
+namespace Chocofamily\Http;
 
 use Phalcon\Di\Injectable;
 
