@@ -108,6 +108,6 @@ class CorrelationId extends Injectable
 
     private function generateId(): string
     {
-        return md5(time().getmypid());
+        return (new \Phalcon\Security\Random)->uuid();
     }
 }
